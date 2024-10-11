@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  background: #222;
+}
+.box {
+  padding-top: 22px;
+  text-align: center;
+  box-shadow: rgba(125, 122, 122, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px;
+}
+.container {
+  width: 100%;
+}
+.productslist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.box h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: aliceblue;
+}
+.box p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img {
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.img:hover {
+  -webkit-filter: brightness(100%);
+}
